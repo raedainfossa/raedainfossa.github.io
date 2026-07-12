@@ -44,6 +44,16 @@
   font-size: 2rem;
 }
 
+.callaction {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  text-align: center;
+  background-color: #6f1d1b;
+}
+
+
 .menuheaders {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -167,7 +177,7 @@
 .cateringblurb {
   display: grid;
   grid-template-columns: 800px;
-  grid-template-rows: 600px;
+  grid-template-rows: 400px;
   justify-content: center;
   color: #e3d2b5;
   text-align: center;
@@ -248,4 +258,36 @@ p {
 .topnav a.active {
   background-color: #6f1d1b;
   color: #ffe6a7;
+}
+
+
+.contactpage {
+  display: grid;
+  grid-template-rows: 600px 500px;
+  background-color: #6f1d1b;
+  color: #ffe6a7;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemcontact {
+  padding: 2em;
+  color: #ffe6a7;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+#contactimage {
+  width: 50%;
+  height: auto;
+}
+
+#contactbody {
+    background-color: #432818;
+}
+
+.captions {
+  font-size: 18px;
+  font-family: "Gelasio", serif;
 }
