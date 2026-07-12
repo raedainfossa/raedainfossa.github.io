@@ -1,0 +1,251 @@
+.arbutus-regular {
+  font-family: "Arbutus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gelasio {
+  font-family: "Gelasio", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  background-color: #ffe6a7;
+}
+
+.item {
+  padding: 2em;
+  color: #432818;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.grid2 {
+    background-color: #6f1d1b;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    color: #e3d2b5;
+    align-items: center;
+}
+
+.item2 {
+  padding: 2em;
+  color: #e3d2b5;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 2rem;
+}
+
+.menuheaders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 350px;
+  font-family: "Arbutus", serif;
+  font-size: 48px;
+  color: #432818;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.otherheaders {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 500px 150px;
+  font-family: "Arbutus", serif;
+  font-size: 48px;
+  color: #432818;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.itemcatering {
+  padding: 2em;
+  color: #ffe6a7;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.contact {
+    background-color: #6f1d1b;
+}
+
+.menubbqplatters {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 150px 100px 100px 100px 100px 100px;
+  align-items: center;
+  background-color: #ffe6a7;
+  justify-content: center;
+}
+
+.itembbq {
+  padding: 2em;
+  color: #6f1d1b;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.menusandwiches {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 150px 100px 100px 100px 100px;
+  align-items: center;
+  background-color: #ffe6a7;
+  justify-content: center;
+
+}
+
+.itemsand {
+  padding: 2em;
+  color: #432818;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.menusides {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 150px 100px 100px 100px 100px 100px 100px 100px;
+  align-items: center;
+  background-color: #ffe6a7;
+  justify-content: center;
+}
+
+.itemsides {
+  padding: 2em;
+  color: #6f1d1b;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.menudrinks {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 150px 100px 100px 100px 100px;
+  align-items: center;
+  background-color: #ffe6a7;
+  justify-content: center;
+}
+
+.itemdrinks {
+  padding: 2em;
+  color: #432818;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.menudess {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 150px 100px 100px 100px 100px;
+  align-items: center;
+  background-color: #ffe6a7;
+  justify-content: center;
+}
+
+.itemdess {
+  padding: 2em;
+  color: #6f1d1b;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.cateringblurb {
+  display: grid;
+  grid-template-columns: 800px;
+  grid-template-rows: 600px;
+  justify-content: center;
+  color: #e3d2b5;
+  text-align: center;
+}
+
+body {
+  background-color: #060606
+}
+
+h1, h2, h3 {
+  font-family: "Arbutus", Times, serif;
+}
+
+p {
+  font-family: "Gelasio", serif;
+}
+
+#popular {
+  font-size: 32px;
+}
+
+#logo {
+  width: 250px;
+  height: auto;
+  padding-right: 20px;
+}
+
+.bbqplatter {
+  height: 300px;
+  width: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#sandwich {
+  width: 500px;
+  height: auto;
+  padding-right: 20px;
+}
+
+#backgroundmenu {
+  background-color: #ffe6a7;
+}
+
+#testing {
+  font-size: 24px;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #432818;
+  position: sticky;
+  top: 0;
+  display: flex;             /* Activates flexbox layout layout */
+  justify-content: center;   /* Horizontally centers items */
+  align-items: center;
+}
+
+.topnav a {
+  float: left;
+  color: #ffe6a7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Arbutus", Helvetica, serif;
+}
+
+.topnav a:hover {
+  background-color: #ffe6a7;
+  color: #432818;
+}
+
+.topnav a.active {
+  background-color: #6f1d1b;
+  color: #ffe6a7;
+}
