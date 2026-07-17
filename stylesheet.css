@@ -11,6 +11,12 @@
   font-style: normal;
 }
 
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -30,18 +36,16 @@
 .grid2 {
     background-color: #6f1d1b;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 960px 480px 480px;
     grid-template-rows: 1fr;
     color: #e3d2b5;
     align-items: center;
 }
 
 .item2 {
-  padding: 2em;
   color: #e3d2b5;
   text-align: center;
-  border-radius: 8px;
-  font-size: 2rem;
+  font-size: 28px;
 }
 
 .callaction {
@@ -51,6 +55,7 @@
   justify-content: center;
   text-align: center;
   background-color: #6f1d1b;
+  padding-top: 15px;
 }
 
 
@@ -187,8 +192,12 @@ body {
   background-color: #060606
 }
 
-h1, h2, h3 {
+h1 {
   font-family: "Arbutus", Times, serif;
+}
+
+h2, h3 {
+  font-family: "Special Elite", serif;
 }
 
 p {
@@ -232,12 +241,19 @@ p {
 
 .topnav {
   overflow: hidden;
-  background-color: #432818;
+  background-image: url("wood3.jpg");
   position: sticky;
   top: 0;
-  display: flex;             /* Activates flexbox layout layout */
-  justify-content: center;   /* Horizontally centers items */
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 150px 100px;
+  grid-template-areas:
+  "box-1 box-1 box-1 box-1"
+  "box-2 box-3 box-4 box-5";
+  place-items: center;
+  justify-content: center;
   align-items: center;
+
 }
 
 .topnav a {
@@ -263,7 +279,7 @@ p {
 
 .contactpage {
   display: grid;
-  grid-template-rows: 600px 500px;
+  grid-template-rows: 600px;
   background-color: #6f1d1b;
   color: #ffe6a7;
   justify-content: center;
@@ -290,4 +306,26 @@ p {
 .captions {
   font-size: 18px;
   font-family: "Gelasio", serif;
+}
+
+#cateringbackground {
+  background-color: #6f1d1b;
+}
+
+footer {
+  font-family: "Gelasio", serif;
+}
+.credits {
+  background-color: #432818;
+  color: #ffe6a7;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+}
+
+.shoeimage {
+  height: 75px;
+  width: auto;
 }
