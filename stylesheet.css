@@ -23,6 +23,7 @@
   grid-template-rows: 1fr;
   align-items: center;
   background-color: #ffe6a7;
+  justify-content: center;
 }
 
 .item {
@@ -36,16 +37,17 @@
 .grid2 {
     background-color: #6f1d1b;
     display: grid;
-    grid-template-columns: 960px 480px 480px;
+    grid-template-columns: 600px 600px 600px;
     grid-template-rows: 1fr;
     color: #e3d2b5;
     align-items: center;
+    justify-content: center;
 }
 
 .item2 {
   color: #e3d2b5;
   text-align: center;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 .callaction {
@@ -61,10 +63,10 @@
 
 .menuheaders {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 350px;
   grid-template-rows: 350px;
   font-family: "Arbutus", serif;
-  font-size: 48px;
+  font-size: 36px;
   color: #432818;
   text-align: center;
   justify-content: center;
@@ -95,15 +97,16 @@
 
 .menubbqplatters {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 300px 300px 300px;
   grid-template-rows: 150px 100px 100px 100px 100px 100px;
   align-items: center;
   background-color: #ffe6a7;
   justify-content: center;
+
 }
 
 .itembbq {
-  padding: 2em;
+  padding: 15px;
   color: #6f1d1b;
   text-align: center;
   border-radius: 8px;
@@ -112,7 +115,7 @@
 
 .menusandwiches {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 300px 300px 300px;
   grid-template-rows: 150px 100px 100px 100px 100px;
   align-items: center;
   background-color: #ffe6a7;
@@ -121,7 +124,7 @@
 }
 
 .itemsand {
-  padding: 2em;
+  padding: 15px;
   color: #432818;
   text-align: center;
   border-radius: 8px;
@@ -130,7 +133,7 @@
 
 .menusides {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 300px 300px 300px;
   grid-template-rows: 150px 100px 100px 100px 100px 100px 100px 100px;
   align-items: center;
   background-color: #ffe6a7;
@@ -138,7 +141,7 @@
 }
 
 .itemsides {
-  padding: 2em;
+  padding: 15px;
   color: #6f1d1b;
   text-align: center;
   border-radius: 8px;
@@ -147,7 +150,7 @@
 
 .menudrinks {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 300px 300px 300px;
   grid-template-rows: 150px 100px 100px 100px 100px;
   align-items: center;
   background-color: #ffe6a7;
@@ -155,7 +158,7 @@
 }
 
 .itemdrinks {
-  padding: 2em;
+  padding: 15px;
   color: #432818;
   text-align: center;
   border-radius: 8px;
@@ -205,7 +208,7 @@ p {
 }
 
 #popular {
-  font-size: 32px;
+  font-size: 48px;
 }
 
 #logo {
@@ -279,11 +282,14 @@ p {
 
 .contactpage {
   display: grid;
-  grid-template-rows: 600px;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 1fr 1fr 1fr;
   background-color: #6f1d1b;
   color: #ffe6a7;
   justify-content: center;
   align-items: center;
+  text-align: center;
+
 }
 
 .itemcontact {
@@ -328,4 +334,64 @@ footer {
 .shoeimage {
   height: 75px;
   width: auto;
+}
+
+
+.indexpromoimageboxes {
+  padding-top: 20px;
+  height: 300px;
+  width: auto;
+}
+
+.wingspic {
+  width: 100%;
+  height: auto;
+}
+
+
+.menutesting {
+  display: flex;
+  justify-content: center;
+}
+
+.imagemenu1 {
+  display: grid;
+  grid-template-columns: 800px 800px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+#dessgrid {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+
+#pie {
+  height: 400px;
+  width: auto;
+  padding-top: 15px;
+}
+
+.bbqsandimages {
+  height: 400px;
+  width: auto;
+  padding: 50px;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+.imagescontact {
+  width: 450px;
+  height: auto;
+}
+
+#imagescontact {
+  width: 500px;
+  height: auto;
 }
